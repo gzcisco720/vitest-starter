@@ -10,7 +10,7 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom',
-    setupFiles: './vitest.config.ts',
+    setupFiles: './setupFiles/vitest.config.ts',
   },
   plugins: [react(), eslintPlugin()],
 });
